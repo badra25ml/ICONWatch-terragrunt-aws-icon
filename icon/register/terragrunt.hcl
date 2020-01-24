@@ -24,7 +24,7 @@ dependency "label" {
 
 inputs = {
   // These five values are mandatory.  Fill them out per your teams information
-  organization_name = "Insight-N1"
+  organization_name = "Insight-Aliou"
   organization_country = "USA" # This needs to be three letter country code
   organization_email = "insight.icon.prep@gmail.com"
   organization_city = "San Francisco"
