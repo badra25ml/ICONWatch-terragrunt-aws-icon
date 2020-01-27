@@ -60,7 +60,14 @@ inputs = {
     from_port = 80
     to_port = 80
     protocol = "tcp"
-    description = "http ingress"
+    description = "http requests"
+    cidr_blocks = "0.0.0.0/0" # TODO: Fix this
+  }]
+  ingress_with_cidr_blocks = [{
+    from_port = 5601
+    to_port = 5601
+    protocol = "tcp"
+    description = "Kibana"
     cidr_blocks = "0.0.0.0/0" # TODO: Fix this
   }]
 
