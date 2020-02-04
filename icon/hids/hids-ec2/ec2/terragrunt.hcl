@@ -49,6 +49,11 @@ inputs = {
   instance_type = "m5.large"
   volume_path = "/dev/xvdf"
 
+#   json_policy = <<-EOF 
+
+
+# EOF 
+
   create_eip = true
   subnet_id = dependency.vpc.outputs.public_subnets[0]
   user_data = dependency.user_data.outputs.user_data

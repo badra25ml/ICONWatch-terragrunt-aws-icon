@@ -32,7 +32,7 @@ Untitled-1
 
 # meta
 packer/
-ansible/
+#ansible/
 modules/
 
 dev
