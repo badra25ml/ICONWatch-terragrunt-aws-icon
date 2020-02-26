@@ -1,6 +1,8 @@
 .idea
 .DS_Store
 
+.git2/
+
 # Terraform and terragrunt
 *.tfstate/
 *.tfstate.backup

@@ -9,7 +9,7 @@ network_name: testnet  # You must fill this in
 
 # These can change to your liking
 namespace: icon
-environment: prod
+environment: p
 owner: insight
 
 # Need to specify 3 availablilty zones here and also the region in region.tfvars
